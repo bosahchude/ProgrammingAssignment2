@@ -1,8 +1,8 @@
 ## The 'makeCacheMatrix' and 'cacheSolve' funtions work together to speed up matrix
-## computations by caching the value of the matrix inverse
+## computations by caching the value of the matrix inverse.
 
-## This makeCacheMatrix fuction uses the <<- symbol to create a special matrix 
-## that can store its inverse so it dosen't need to be computed everytime it's required
+## This makeCacheMatrix fuction uses the <<- symbol to create a special matrix
+## that can store its inverse so it dosen't need to be computed everytime it's required.
 
 makeCacheMatrix <- function(x = matrix()) {
      i <- NULL
